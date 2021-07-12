@@ -1,11 +1,11 @@
 # This script demonstrates how to setup Duo MFA on okta auth login in a namespace and in root namespace
 
-#Pre-req
+# Pre-req
 - Vault
 - Duo account
 - Okta account
 
-#How to use this repo
+# How to use this repo
 
 1. export environment variables:
 
@@ -19,7 +19,7 @@ export Okta_TOKEN=YOUR_TOKEN
 
 ```
 
-2. run script 
+2. run script:
 
 ```
 
