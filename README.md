@@ -23,6 +23,6 @@ export Okta_TOKEN=YOUR_TOKEN
 
 ```
 
-$./sc.sh
+$./sc5.sh
 
 ```
