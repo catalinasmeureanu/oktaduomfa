@@ -1,5 +1,5 @@
 
-This script demonstrates how to setup Duo MFA on okta auth login in a namespace and in root namespace
+This script demonstrates how to setup Duo MFA on Okta auth login in a namespace and in root namespace
 
 # Pre-req
 - Vault
