@@ -43,7 +43,7 @@ vault write sys/policies/egp/vault_ent_duodev \
         enforcement_level="hard-mandatory"
 
 
-vault login -method=okta username=sandynelax password=Test!1!2!3
+vault login -method=okta username=sandynelax
 
 
 
@@ -86,4 +86,4 @@ vault write -namespace=ns1 sys/policies/egp/vault_ent_duodev2 \
         paths="auth/okta/login/*" \
         enforcement_level="hard-mandatory"
 
-vault login -namespace=ns1 -method=okta username=sandynelax password=Test!1!2!3
+vault login -namespace=ns1 -method=okta username=sandynelax
